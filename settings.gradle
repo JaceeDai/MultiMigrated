@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) //TODO 注释掉，因为报 "ivy" 错误
     repositories {
         google()
         mavenCentral()
@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Simple login"
 include ':app'
+include ':shared'
