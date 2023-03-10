@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.jetbrains.simplelogin.androidapp"
-        minSdk 21
+        minSdk 23 // TODO 必须和 shared 的一致
         targetSdk 33
         versionCode 1
         versionName "1.0"
